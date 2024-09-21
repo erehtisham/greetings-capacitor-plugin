@@ -1,3 +1,3 @@
-export interface GreetingsPlugin {
+export interface GreetingsPlugin { 
   echo(options: { value: string }): Promise<{ value: string }>;
 }
